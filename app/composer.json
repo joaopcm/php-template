@@ -1,12 +1,12 @@
 {
-    "name": "sccp/portal-do-licenciado",
-    "description": "Portal de comunicação entre a equipe de Marketing do Sport Club Corinthians Paulista e seus clientes",
+    "name": "php-project-template",
+    "description": "Base model of a PHP project with Docker.",
     "minimum-stability": "stable",
     "license": "proprietary",
     "authors": [
       {
         "name": "João Pedro da Cruz Melo",
-        "email": "joao.melo@sccorinthians.com.br"
+        "email": "joao.pedro6532@gmail.com"
       }
     ],
     "config": {
@@ -14,12 +14,11 @@
     },
     "require": {
         "slim/slim": "2.4.0",
-        "rain/raintpl": "3.0.0",
-        "aws/aws-sdk-php": "^3.86"
+        "rain/raintpl": "3.0.0"
     },
     "autoload": {
         "psr-4": {
-            "Portal\\": "classes"
+            "Template\\": "classes"
         }
     }
 }
